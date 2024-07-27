@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.wrapper{
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.wrapper .wrapper-nav{
+    margin-left: 10%;
+}
+.wrapper .wrapper-navbar {
+    margin-right: 5%;
+}
+.wrapper  .wrapper-navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.wrapper-navbar .wrapper-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 15px;
+    
+}
+.wrapper-navbar .wrapper-btn button {
+    background: #8BAC3E;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    color: aliceblue;
+}
+.wrapper-navbar .wrapper-btn p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.wrappers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+.wrappers .wrappers-text {
+    margin-left: 10%;
+    margin-top: 3%;
+    gap: 15px;
+}
+.wrappers .wrappers-img {
+    margin-right: 20%;
+}
+.wrappers .wrappers-text h1{
+    width: 400px;
+    font-size: 50px;
+    color: #8BAC3E;
+    margin-top: 3%;
+
+}
+.wrappers .wrappers-text p{
+    width: 400px;
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+.wrappers .wrappers-text button {
+    background: #8BAC3E;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    color: aliceblue;
+}
+ .wrappers .wrappers-text .wrappers-btn{
+    background: #F2F2F2;
+    border-radius: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin-left: 2%;
+}
+.wrappers-texts{
+   font-size: 25px; 
+    gap: 10px;
+   width: 80%;
+  
+   margin-left: 10%;
+}
+.wrappers-texts span {
+    color: #8BAC3E;
+    margin-left: 5%;
+
+
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+   
+}
